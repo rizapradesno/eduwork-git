@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>JS Objects</title>
+</head>
+<body>
+    <p id ='Section 4 Task 6'></p>
+   
+      <script>
+        const person = {
+            firstname : "John",
+            lastname : "Doe",
+            spesifikasi: function() {
+                return "FirstName: " + this.firstname + ", " + "LastName: "+this.lastname; 
+            }
+        };
+
+            alert(document.getElementById('Section 4 Task 6').innerHTML = person.spesifikasi());
+        
+    </script>
+</body>
+</html>
